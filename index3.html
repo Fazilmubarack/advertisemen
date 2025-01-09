@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HP Laptops</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="style.css">
+   <style>
+    /* Contact Section Styles */
+#contact {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#contact .container {
+    max-width: 600px;
+    margin: auto;
+}
+
+#contact .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 16px;
+    color: #666; /* Lighter text color */
+    margin-bottom: 20px;
+}
+
+#contact form {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#contact form textarea {
+    resize: none; /* Disable resizing */
+    height: 80px; /* Set a default height */
+}
+
+#contact form button {
+    background-color: #007bff; /* Blue button */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+   </style>
+</head>
+<body>
+    <header>
+        <h1>HP Laptops</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#models">Models</a>
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+    <section id="home" class="home-section">
+        <div class="home-overlay"></div>
+        <div class="home-content">
+            <h2 class="home-title">Innovate Your World with HP Laptops</h2>
+            <p class="home-subtitle">Unleash the power of cutting-edge technology and design.</p>
+            <a href="#models" class="cta-button">Explore Our Models</a>
+        </div>
+    </section>
+    
+    <section id="models">
+        <h2>Our Top Models</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <img src="hp-envy-x360-15-2021_aah8.3840.webp" class="d-block w-100" alt="HP Envy">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>HP Envy</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="HP-SPectre-x360-1.webp" class="d-block w-100" alt="HP Spectre">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>HP Spectre</h5>
+                    </div>
+                </div>
+             
+                <div class="carousel-item">
+                    <video class="d-block w-100" controls>
+                        <source src="WhatsApp Video 2025-01-09 at 15.03.07_a3a1fb16.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Experience HP in Action</h5>
+                    </div>
+                </div>
+            </div>
+          
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    
+    <section id="features">
+        <h2>Why Choose HP?</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Performance</h3>
+                <img src="hp-envy-x360-15-2021_aah8.3840.webp" alt="Performance" class="img-fluid">
+                <p>Experience top-tier performance with Intel and AMD processors.</p>
+                <h4>HP Envy</h4>
+                <ul>
+                    <li><strong>Processor:</strong> Intel Core i7</li>
+                    <li><strong>RAM:</strong> 16GB</li>
+                    <li><strong>Storage:</strong> 512GB SSD</li>
+                </ul>
+            </div>
+            <div class="feature">
+                <h3>Design</h3>
+                <img src="HP-SPectre-x360-1.webp" alt="Design" class="img-fluid">
+                <p>Sleek, lightweight, and built for portability and style.</p>
+                <h4>HP Spectre</h4>
+                <ul>
+                    <li><strong>Processor:</strong> Intel Core i7</li>
+                    <li><strong>RAM:</strong> 16GB</li>
+                    <li><strong>Storage:</strong> 1TB SSD</li>
+                </ul>
+            </div>
+            <div class="feature">
+                <h3>Sustainability</h3>
+                <img src="1-czone.com.pk-1540-15058-190823075706.jpg" alt="Sustainability" class="img-fluid">
+                <p>Built with eco-friendly materials for a sustainable future.</p>
+                <h4>HP Pavilion</h4>
+                <ul>
+                    <li><strong>Processor:</strong> Intel Core i5</li>
+                    <li><strong>RAM:</strong> 8GB</li>
+                    <li><strong>Storage:</strong> 512GB SSD</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <div class="pricing-table">
+            <div class="pricing-plan">
+                <h3>HP Envy</h3>
+                <img src="hp-envy-x360-15-2021_aah8.3840.webp" alt="HP Envy Pricing" class="img-fluid" usemap="#hp-envy-map">
+                <p>Starting at <strong>₹74,999</strong></p>
+                <map name="hp-envy-map">
+                    <area shape="rect" coords="0,0,500,500" alt="HP Envy" href="https://www.amazon.in/HP-i5-1335U-15-6-inch-Graphics-15-fe0027TU/dp/B0CGDWGXGP/ref=sr_1_3?dib=eyJ2IjoiMSJ9.BFaDVuKd5wrjolRmF6DWbbtQnCLLJr-VpPN8WTiBVoDfey9aimVuE6qr_hobpYWq2AOePalrE2I960zeWVuRvEIwmlhy6sHWLmw6xPSkUq29FjD5HYZ08n63Jp181IjGAL7D4Q65xD097QObSgs-BCenugfUWO6456s9rX7WQaRB_LArpeH6o25PBNony2Ksx1NoFVwhjRNIfINAIRs0JXjtOdFS36S0gui5_ap_H_A.6uywCordqEHP6pJR1U1Z06D39wnlaOAFk-T_mRnISGg&dib_tag=se&keywords=hp+envy&nsdOptOutParam=true&qid=1736413169&sr=8-3" target="_blank">
+                </map>
+            </div>
+            <div class="pricing-plan">
+                <h3>HP Spectre</h3>
+                <img src="HP-SPectre-x360-1.webp" alt="HP Spectre Pricing" class="img-fluid" usemap="#hp-spectre-map">
+                <p>Starting at <strong>₹1,67,999</strong></p>
+                <map name="hp-spectre-map">
+                    <area shape="rect" coords="0,0,500,500" alt="HP Spectre" href="https://www.amazon.in/HP-Spectre-16-inch-LPDDR5x-aa0015TU/dp/B0D6R76599/ref=sr_1_3?crid=129YG16OVIDM&dib=eyJ2IjoiMSJ9.fl9F_OHgaI1uFUEmmxoscHd_S9EE1oJ8YG5Kso77JxFWd8BKv_NnSu85IMGkM0T5wqzHz_sSpsSN8XUgzhSBgoAEdeWaCV6a9gIO9cvs1G3rRpGCX7kj31-_WgD2Qu3Xv1aJr_dcBbj-3F4F_cpgVuopTgQWaYcvtvCHdQwNU6tYNQY2pIHZBx_ln8nRSGVr7irvk8ie7EFaMrxEXqQ5IKaoQ2lx0b6j1QkvEUcZVaY.-kzr5rYxoUCneR3wkPP1yXOUez4wm3WJ0PIBncXttkg&dib_tag=se&keywords=hp+spectre+x360&nsdOptOutParam=true&qid=1736413225&sprefix=hp+spe%2Caps%2C532&sr=8-3" target="_blank">
+                </map>
+            </div>
+            <div class="pricing-plan">
+                <h3>HP Pavilion</h3>
+                <img src="1-czone.com.pk-1540-15058-190823075706.jpg" alt="HP Pavilion Pricing" class="img-fluid" usemap="#hp-pavilion-map">
+                <p>Starting at <strong>₹57,999</strong></p>
+                <map name="hp-pavilion-map">
+                    <area shape="rect" coords="0,0,500,500" alt="HP Pavilion" href="https://www.amazon.in/s?k=hp+pavilion" target="_blank">
+                </map>
+            </div>
+        </div>
+    </section>
+    <div id = "madd">
+        <div class="map-section py-4">
+            <center>
+            <h3 class="text-center">Visit Our Showroom</h3>
+            </center>
+            <div class="text-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62660.117319087556!2d76.89549723125002!3d11.019309400000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85855bfffffff%3A0x74b6849b15c4a4f5!2sHP%20World%20-%20Gandhipuram!5e0!3m2!1sen!2sin!4v1736417635781!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    </div>
+<section id="contact" class="contact" >
+    <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <p>Have questions or need assistance? Reach out to us! hplaptop.com</p>
+        <form style=" width:350px">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 HP Inc. | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
